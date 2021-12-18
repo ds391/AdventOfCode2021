@@ -1,8 +1,4 @@
-import os
-if os.path.exists("output"):
-	os.remove("output") 
-output = open("output", "w")
-file = open("input2", "r")
+file = open("TestData", "r")
 inputs = (file.read().split("\n"))
 inputs = map(int,inputs)
 lastNumber = 0
