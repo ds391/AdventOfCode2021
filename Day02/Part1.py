@@ -1,3 +1,4 @@
+#requires python 3.10 which i dont have installed, abandonded 
 output = open("output", "a")
 inputs = open("input", "r")
 x = 0
