@@ -1,11 +1,11 @@
-file = open("TestData", "r")
+file = open("input", "r")
 inputs = (file.read().split("\n"))
 inputs = map(int,inputs)
 lastNumber = 0
 countHigher = 0
-x = -1
+x = 0
 print(len(inputs))
-while x < len(inputs)+1:
+while x < len(inputs)-2:
 	print(x)
 	y = inputs[x]+inputs[x+1]+inputs[x+2]
 	if lastNumber == 0:
